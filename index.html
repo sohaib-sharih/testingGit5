@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <p>Whats your name?</p>
+    <p>hello</p>
+    <p>Whats your name?</p>
+    <button onclick="mediab()">Click ME</button>
+
+    <button class="classA" id="classB" onclick="media()">
+    click me</button>
+    <!-- Below button is taking input of a number -->
+
+    <input type="number" class="entNum">
+    <button onclick="mediac()"> Enter</button>
+
+    <!-- Replacing text -->
+
+    <h3 class="changeText">replacing text</h3>
+    <button onclick="mediaD()">
+        change text
+    </button>
+
+    <!-- Replacing text -->
+
+    <p class="changeText2">This is the 2nd text.</p>
+    <button onclick="mediaE()">
+        Change
+    </button>
+
+    <!-- Replacing Text 3 -->
+
+    <p>Toyota</p>
+    <p>Honda</p>
+    <p>Coure</p>
+
+    <button onclick="mediaF()">Change Text</button>
+
+    <!-- showing the tags -->
+    <button onclick="tagsNum()">
+    check tags
+    </button>
+
+
+    <h3>SUMMARY</h3>
+
+    <ol>
+        <li><b>getElementbyID/ClassName/TagName</b> will log all elements in an Array form but will not be able to access the inside content, unless you specify the <b>ID or Class or INdex.</b></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <!-- Draft notes below -->
+
+    <ol>
+        <li><b>Query selector</b> allows you to get content of elements from ID, CLASSES and TAGS without using special characters like, ., etc.</li>
+        <li><b>GetElementbyID</b>, <i>Tagname, class</i>  is used to get the number of elements in an array form, therefore it can be called/logged using indexes.
+        <ol type="1">
+            <li>The output or log is always in an ARRAY.</li>
+            <li>Can access the inside content when you use INDEX</li>
+            <li>Only element name without Index, will give you the Elements in Array, depending on how many times it has occured.</li>
+        </ol></li>
+        <li></li>
+    </ol>
+
+    <!-- change image 1 -->
+    <img src="/images/one.PNG" alt="downloading" id="replaceImg">
+    <button onclick="change()">
+        Change Image
+    </button>
+
+    <!-- Change image 2 -->
+    <img src="/images/oop1.PNG" alt="loading" id="imgB">
+    <button onclick="change2()">
+        change image 2
+    </button>
+
+    <script src="/app.js"></script>
+</body>
+</html>
