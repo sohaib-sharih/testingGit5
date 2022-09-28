@@ -105,4 +105,10 @@ function testFunc(){
     }
 }
 // this is it.
+<<<<<<< Updated upstream
 // this is it 2
+=======
+// this is it 2
+// hi
+// new stash
+>>>>>>> Stashed changes
